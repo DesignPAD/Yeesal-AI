@@ -1,4 +1,4 @@
-# Déploiement YEESAL AI — GitHub + Vercel + yeesalai.com
+# Déploiement YEESAL AI — GitHub + Vercel + yessalai.com
 
 ## 1. Pousser le projet sur GitHub
 
@@ -41,17 +41,17 @@ git push -u origin main
 
 ---
 
-## 3. Ajouter ton domaine yeesalai.com (ou yessalai.com)
+## 3. Ajouter ton domaine yessalai.com
 
 1. Dans **Vercel** : ouvre ton projet → onglet **Settings** → **Domains**.
-2. Dans **Domain**, saisis **yeesalai.com** (ou **yessalai.com** selon le domaine que tu as acheté) → **Add**.
+2. Dans **Domain**, saisis **yessalai.com** → **Add**.
 3. Vercel affiche les enregistrements DNS à configurer chez ton registrar (ex. OVH, Namecheap, Google Domains, etc.) :
    - Soit **A** : `76.76.21.21`
    - Soit **CNAME** : `cname.vercel-dns.com` (souvent pour `www`)
 4. Chez ton **registrar** (là où tu as acheté le domaine) :
    - Va dans la gestion DNS du domaine.
    - Ajoute les enregistrements indiqués par Vercel (A et/ou CNAME).
-   - Pour avoir à la fois **yeesalai.com** et **www.yeesalai.com**, ajoute les deux comme proposé par Vercel.
+   - Pour avoir à la fois **yessalai.com** et **www.yessalai.com**, ajoute les deux comme proposé par Vercel.
 5. La propagation DNS peut prendre de 5 minutes à 48 h. Une fois faite, Vercel activera automatiquement le HTTPS pour ton domaine.
 
 ---
@@ -62,6 +62,6 @@ git push -u origin main
 |--------------------|-----------|
 | Code               | GitHub (dépôt `yeesal-ai`) |
 | Hébergement       | Vercel (lié au dépôt GitHub) |
-| Domaine personnalisé | yeesalai.com (ou yessalai.com) dans Vercel → Domains + DNS chez ton registrar |
+| Domaine personnalisé | yessalai.com dans Vercel → Domains + DNS chez ton registrar |
 
 À chaque **push** sur `main`, Vercel redéploiera automatiquement le site.

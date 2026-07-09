@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# licensed font sources (personal-use only) — keep local
+brand-src/equinox/
+.claude/settings.local.json
