@@ -6,6 +6,21 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "quincaillerie",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:\\Users\\ABD\\OneDrive\\Bureau\\PAD\\WEBSITE PROJECTS\\SITE QUINCAILLERIE\\Site_Officiel_bds (2)\\Mon Site Quincaillerie - Copie\\youuu2\\dev-server.js"
+      ],
+      "port": 3999
+    },
+    {
+      "name": "bds-v2",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "-p", "3010"],
+      "cwd": "C:\\Users\\ABD\\OneDrive\\Bureau\\PAD\\WEBSITE PROJECTS\\SITE QUINCAILLERIE\\bds-equipements-v2",
+      "port": 3010
     }
   ]
 }
