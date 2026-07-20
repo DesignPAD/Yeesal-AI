@@ -17,9 +17,11 @@
     },
     {
       "name": "bds-v2",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["next", "dev", "-p", "3010"],
-      "cwd": "C:\\Users\\ABD\\OneDrive\\Bureau\\PAD\\WEBSITE PROJECTS\\SITE QUINCAILLERIE\\bds-equipements-v2",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "cd /d \"C:\\Users\\ABD\\OneDrive\\Bureau\\PAD\\WEBSITE PROJECTS\\SITE QUINCAILLERIE\\bds-equipements-v2\" && npx next dev -p 3010"
+      ],
       "port": 3010
     }
   ]
